@@ -1,0 +1,8 @@
+services:
+  server:
+    build:
+      context: .
+      target: final
+    image: dirkodendaal/rdw-api
+    ports:
+      - 8080:8080
